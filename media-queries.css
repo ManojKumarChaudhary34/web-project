@@ -1,0 +1,150 @@
+@media screen and (max-width: 991px ){
+    /* navigation */
+    .primary-navigation {
+        display: none;
+    }
+    .mobile-nav-toggle {
+        display: block;
+        padding: 0.5em;
+    }
+/* example section */
+    .example-area {
+        gap: 20px;
+    }
+
+    .example-card {
+        width: calc(50% - 10px);
+        height: 180px;
+        background-size: cover;
+    }
+
+    .card-text {
+        font-size: 1.2rem;
+    }
+/* cta-section */
+    .cta-section {
+     padding: 4em 0 2em;       
+    }
+
+    .cta-section-container h2 {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    /* secondary-header */
+    .header-section {
+        flex-direction: column-reverse;
+    }
+
+    .header-left {
+        max-width: 100vw;
+        text-align: center;
+    }
+
+    .header-left .button {
+        width: 100%;
+        justify-content: center;
+        padding: 1.3em;
+        font-size: 1rem;
+    }
+
+    /* feature-section */
+
+    .feature-section {
+        background-image: none;
+    }
+
+    .grid-header {
+        grid-column: 1 / span 2;
+    }
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
+
+    /* Big-feature-section */
+
+    .big-feature-container, #middle-big-feature-container {
+        flex-direction: column;
+    }
+
+    .big-feature-image {
+        max-width: 80vw;
+    }
+
+    /* footer-section */
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center !important;
+        gap: 40px;
+    }
+
+    .footer-container .link-column {
+       align-items: center;
+    }
+
+    /* sub-footer-section */
+    .subfooter-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .fa-brands {
+    font-size: 2rem;
+   }
+
+}
+
+@media screen and (max-width: 472px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    h4 {
+        font-size: 0.95rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 0.85rem;
+    }
+    .grid-header {
+        grid-column: 1 ;
+    }
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    .example-area {
+        flex-direction: column;
+    }
+    .example-card {
+        width: 100%;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .subfooter-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .fa-brands {
+        font-size: 2rem !important;
+       }
+
+}
